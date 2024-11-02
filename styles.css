@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  font-size: 20px;
+}
+
+.keys {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+div {
+  margin-top: 20px;
+}
+
+.operators {
+  display: flex;
+  gap: 30px;
+}
+
+.keys div button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.keys div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 10px 0px;
+}
+
+input {
+  width: 50%; /* Adjust this value to make the buttons wider */
+  height: 40px;
+}
+
+button {
+  width: 60px; /* Adjust this value to make the buttons wider */
+  height: 40px; /* Adjust the height as needed */
+  font-size: 18px; /* Optional: increase font size for readability */
+  margin: 5px; /* Optional: add spacing between buttons */
+}
